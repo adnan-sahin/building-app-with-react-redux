@@ -40,7 +40,7 @@ SelectInput.propTypes = {
   onChange: PropTypes.func.isRequired,
   defaultOption: PropTypes.string,
   options: PropTypes.arrayOf(PropTypes.object),
-  value: PropTypes.oneOfType(PropTypes.string, PropTypes.number),
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   error: PropTypes.string,
 };
 
